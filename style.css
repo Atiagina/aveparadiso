@@ -1,0 +1,1282 @@
+/*CSS document */
+/*
+Theme Name: zaveapp
+Theme URI: http://wordpress.org/themes/zaveapp
+Author: Anna Atiagina
+Author URI: http://atiagina.com/
+Description: The theme created for ZaveApp in May 2016 to represent the brand and its unique features.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: zaveapp
+*/
+
+/* for debugging:
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
+*/
+
+/* RESETS */
+
+/* v2.0 | 20110126
+  http://meyerweb.com/eric/tools/css/reset/ 
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of v2.0 resets, start of my resets */
+
+body {
+    margin: 0;
+	box-sizing: border-box;	/* declared width = rendered width */
+    overflow-x: hidden; 
+    -webkit-overflow-x: hidden;
+    width: 100%;
+    min-height: 100%;
+}
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+    font-size: 16px; /* 1 rem = 16px */  /* set in pixels so we can use rems */
+    overflow-x: hidden;
+}
+
+
+
+body * {
+    box-sizing: border-box;	/* declared width = rendered width */
+}
+
+/* END RESETS */
+
+/* MAIN STYLES */
+
+body > .container-fluid {
+    padding-top: 60px;
+    width: 100%;
+    margin: 0;
+    padding-left: 0px; !important
+    padding-right: 0px; !important
+}
+
+div.container-fluid {
+    padding-right: 0px; !important
+}
+
+.col-xs-12 {
+   
+    padding-right: 0px; !important
+}
+
+
+#section1 > .container-fluid {
+    padding-top: 80px;
+}
+
+#footer > .container-fluid {
+    padding-top: 10px; !important
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+a img {
+	border: 0;
+}
+
+
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+.myrow {
+    padding: 0 7.8%;
+}
+
+.myrow>div {
+    padding: 20px;
+}
+
+
+.multilogo img {
+    margin: 20px; !important
+    /* display: inline-block; !important */
+    float: left; !important
+    
+}
+
+
+.custombutton {
+    color: black;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: OswaldDemiBold;
+}
+
+.custombutton a,
+.custombutton a:hover,
+.custombutton a:focus {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/*end of wordpress genereated classes */
+
+/*FONTS AND TEXT STYLES */
+
+@font-face {
+    font-family: OswaldDemiBold;
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+
+h1 {
+    font-family: OswaldDemiBold; !important
+font-size: 5em;
+color: black;
+}
+
+#section2 h1 {
+    float: right;
+}
+
+.container-fluid.full-width>h2,
+#onpintext {
+    font-family: OswaldDemiBold; !important
+    font-size: 2em; 
+    margin: 25px 0; 
+}
+
+h2 {
+    font-family: OswaldDemiBold; !important
+    font-size: 2em; !important
+    margin: 25px; !important
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+h4 {
+    font-family: OswaldDemiBold;
+    line-height: 1.8em;
+}
+
+
+
+
+/*NAVIGATION*/
+
+
+.navbar {
+    min-height: 80px;
+    background-color: white;
+    /* background-color: #f8f8f8; */
+    font-family: OswaldDemiBold;
+}
+
+
+
+#navcont {
+    padding-left: 0;
+    margin-bottom: 10px;
+    /*margin-left: 20px; 
+    margin-right: 0px;*/
+}
+
+a.navbar-brand {
+    
+    padding: 0 30px; !important
+}
+
+#nav-toggle-button span {
+    color: black;
+}
+
+a.btn.btn-app-download.storebtn {
+    color: white; !important
+}
+
+/*sections */
+
+
+
+#triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 90px solid black;
+	border-bottom: 50px solid transparent;
+}
+
+#triangle-right:after {
+  background: black;
+  content: "";
+  height: 6px;
+  left: 120px;
+  position: absolute;
+  top: 47px;
+  width: 100%;
+}
+
+#triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 90px solid black;
+	border-bottom: 50px solid transparent;
+    float: right;
+}
+
+#triangle-left:after {
+  background: black;
+  content: "";
+  height: 6px;
+  right: 110px;
+  position: absolute;
+  top: 47px;
+  width: 100%;
+}
+
+.playrow {
+    padding-top: 20px; !important
+}
+
+.section h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+
+ul.nav.navbar-nav {
+   margin-right: 0;
+    float: right;
+}
+
+ul.nav.navbar-nav li {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+#socialnav ul.nav.navbar-nav li {
+   padding: 0; !important
+    font-size: 1.2em;
+    text-align: right;
+    margin: 0;
+}
+
+#socialnav a {
+    text-decoration: none;
+    color: black;
+}
+ul.nav.navbar-nav>li:hover,
+ul.nav.navbar-nav>li:focus,
+ul.nav.navbar-nav > li > .active > a, 
+ul.nav.navbar-nav > li > .active > a:hover, 
+ul.nav.navbar-nav > li > .active > a:focus
+{
+    color: white; !important
+    background-color: black; !important
+    border-radius: 10px; !important
+    opacity: 1;
+}
+
+nav.navbar-default .navbar-nav > .active > a, 
+nav.navbar-default .navbar-nav > .open > a,
+nav.navbar-default .navbar-nav > .active > a:focus
+{
+    background-image: none; !important
+    background-color: black; !important
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/*Section1 */
+
+
+
+.customvisible {
+    visibility: hidden;
+    display: none;
+}
+
+.relativesection {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+}
+
+
+
+
+.modal-header {
+        background-color: black;
+        color: white;
+        font-family: OswaldDemiBold; !important
+}
+
+.modal-header button.close {
+    color: white; !important
+    opacity: .8; !important
+}
+
+.modal-header .close {
+    opacity: .8; !important
+}
+
+
+.modal-content {
+    color: black; !important
+}
+
+    
+    
+/* Music */
+
+
+
+
+
+
+/*  social */
+
+#social h1 {
+    float: right;
+}
+
+
+/* bio */
+
+#pintext {
+    position: absolute;
+    float: right;
+    top: 10%;
+    right: 0;
+    max-width: 300px;
+    padding-right: 0;
+    margin-right:0;
+    text-align: right;
+}
+
+#onpintext {
+    color: white;
+    background: black;
+    padding: 10px;
+    margin-right: 0;
+    margin-bottom:0;
+}
+
+
+#onpintext2 {
+    color: black;
+    background: white;
+    opacity: .7;
+    padding: 10px;
+}
+
+
+/* tour */
+
+ #tour h1 {
+    float: right;
+}
+
+/*SECTION 7 - METAS */
+
+
+
+.nav-pills>li>a {
+    font-family: OswaldDemiBold;
+    font-size: 1.5em;
+    color: black; !important
+    
+}
+
+.nav-pills>li {
+    border: 1px solid black; 
+    border-radius: 20px; !important
+}
+
+
+
+.nav-pills>li:focus,
+.nav-pills>li:hover {
+    border: none;
+}
+
+#section7b .nav-pills > li.active > a, 
+#section7b .nav-pills > li.active > a:hover, 
+#section7b .nav-pills > li.active > a:focus {
+    color: white;
+    background-color: black; !important
+    border: 1px solid transparent; 
+    border-radius: 20px; 
+}
+
+#section7b .nav > li > a:focus, 
+#section7b .nav > li > a:hover {
+    border-radius: 20px; !important
+}
+
+.nav-pills>li.active {
+border: none;
+}
+
+.tab-pane.fade.in.active {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px; !important
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+#ulmetas {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#ulmetas li {
+    margin-right: 10px;
+}
+
+#compra,
+#viaja,
+#redeem,
+#dona {
+    border: 1px solid black;
+    
+}
+
+.metaslogos {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.metaslogos ul>li {
+    display: inline;
+    list-style: none;
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.imetas {
+    font-size: 6em;
+}
+
+#bos_searchbox_widget_class-3 h3,
+#bos_searchbox_widget_class-3 h4 {
+    text-transform:none; 
+}
+
+/*SECTION 8 - TESTIMONIALS */
+
+#section8 h4 {
+    font-family: OswaldDemiBold; !important
+    text-transform: uppercase;
+    line-height: 1.8em;
+}
+
+
+/*SECTION 10 - ZAVEAPP TEAM */
+
+#section10 {
+    background-color: black;
+    color: white;
+}
+
+#section10 h4 {
+    font-family: OswaldDemiBold; !important
+    text-transform: uppercase;
+    line-height: 1.8em;
+}
+
+
+.teamdiv{
+    float: none; !important
+    margin: 10px auto;
+    padding: 20px;
+}
+
+div.owl-controls {
+    text-align: center;
+    font-size: 2em;
+}
+
+.owl-nav div.owl-prev,
+.owl-nav div.owl-next {
+    display: inline; !important
+}
+
+div.owl-prev {
+    margin-right: 10px;
+}
+
+div.owl-next {
+    margin-left: 10px;
+}
+
+
+/*SECTION 12 - PRENSA */
+
+#section12 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+/*NEWSLETTER */
+
+#newsletter h2 {
+    font-family: OswaldDemiBold;
+    text-transform:uppercase;
+}
+
+#newsletterdiv {
+    position: absolute;
+    float: right;
+    top: 10%;
+    right: 0;
+    max-width: 300px;
+    padding-right: 0;
+    margin-right:0;
+    text-align: right;
+}
+
+#newslettertext {
+    color: white;
+    background: black;
+    padding: 10px;
+    margin-right: 0;
+    margin-bottom:0;
+}
+
+
+#newslettertext2 {
+    color: black;
+    background: white;
+    opacity: .7;
+    padding: 10px;
+}
+
+/* SECTION 13 - CONTACT */
+
+.wpcf7-form-control.wpcf7-submit,
+.mc4wp-form-fields > p > input {
+    padding: 5px 10px;
+    color: black;
+    font-family: OswaldDemiBold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.wpcf7-form-control-wrap.your-message textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.wpcf7-form input,
+.wpcf7-form select {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#section13 .socialbutton {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.4em;
+}
+
+#sectionstore {
+    background-color: black;
+    padding-top: 10px;
+}
+
+#sectionstore .storefooter {
+    text-align: center; !important
+    margin: 0 auto;
+}
+
+#sectionstore .storefooter .storebtn {
+    border: 1px white solid;
+}
+
+/* SECTION 14 - FOOTER */
+
+#section14 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#section14 div .centerbutton {
+    text-align: center;
+    cursor:pointer;
+}
+
+#section14 .modal-content.modal-body {
+    background-color: white;
+    color: black;
+}
+
+#footerlogo {
+    margin-top: -10px;
+}
+
+#menufooter ul {
+    margin: 0 auto;
+}
+
+#menufooter li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+    
+}
+
+#frasefooter {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#menufooter li a {
+    color: black; !important
+    
+}
+
+
+.backtotop:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+ 
+.backtotop {
+	display: none;
+	position: fixed;
+	bottom: 8rem;
+	right: 2rem;
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 3rem;
+    z-index: 100000;
+	color: #fff;
+	background-color: #494f52;
+	text-decoration: none;
+    border: 1px solid #21272a;
+	border-radius: 5rem;
+	text-align: center;
+	cursor: pointer;
+    box-shadow: 0 6px 13px 0 rgba(0,0,0,.23); !important
+}
+
+/* SINGLE PAGE */
+
+
+#pagearrow {
+    padding-top: 15px;
+    float: right;
+    font-size: 1.5em;
+}
+
+#pagearrow a{
+    text-decoration: none;
+    color: #777;
+}
+
+#pagearrow a:hover,
+#pagearrow a:focus,
+#pagearrow a:active {
+    text-decoration: none;
+    color: #777;
+}
+
+#pagenavcont {
+    padding-left: 0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.pagecontent {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.pagecontent h2 {
+    font-family: OswaldDemiBold;
+}
+
+.pagecontent>div>div>.socialbutton {
+    background-color: #777;
+}
+
+
+.pagecontent img {
+    margin: 15px auto;
+    max-width: 500px;
+    width: 100%;
+    padding: 0 auto;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1350px){
+    #picnic2 {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1290px){
+    #picnic2 {
+        height: 530px;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    #picnic2 {
+        height: 520px;
+    }
+}
+
+@media screen and (max-width: 1210px){
+    
+    h1 {
+        font-size: 4em;
+    }
+    
+    #picnic2 {
+        height: 500px;
+    }
+    
+    .socialbutton {
+    
+    font-size: .9em;
+}
+    
+
+.project-overlay-2 {
+    top: 30%;
+    
+}
+
+
+    .project-overlay-3 {
+    top: 60%;
+    }
+
+
+.project-overlay-4 {
+    top: 80%; 
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1170px){
+    #picnic2 {
+        height: 490px;
+    }
+}
+
+@media screen and (max-width: 1145px){
+    #picnic2 {
+        height: 470px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1080px){
+   
+    
+    #picnic2 {
+        height: 440px;
+    }
+    
+    .pagecontent.attachment-page-post-img.size-page-post-img.wp-post-image {
+        max-width: 400px; !important
+    }
+}
+
+@media screen and (max-width: 1025px){
+   
+    
+    #picnic2 {
+        height: 420px;
+    }
+    
+    .socialbutton {
+    
+    font-size: .8em;
+}
+    
+    .project-overlay-3 {
+    top: 70%;
+    }
+    
+    #section1 > .container-fluid {
+    padding-top: 100px;
+}
+    ul.nav.navbar-nav li {
+    padding: 5px 5px;
+    font-size: .9em;
+  
+}
+    
+}
+
+@media screen and (max-width: 993px){
+    .socialbutton {
+    
+    font-size: .6em;
+        height: 40px;
+}
+    
+    .pagecontent .socialbutton {
+    
+    font-size: 1.2em;
+        height: 50px;
+     margin: 8px 40px;
+}
+    
+}
+
+@media screen and (max-width: 980px){
+   
+    
+    #picnic2 {
+        height: 410px;
+    }
+    
+    nav.navbar {
+        margin-bottom: 0; !important
+        padding: 0; !important
+    }
+    
+    
+}
+
+@media screen and (max-width: 940px){
+    h1 {
+       font-size: 3em; 
+    }
+    
+    #picnic2 {
+        height: 380px;
+    }
+    
+    .project-overlay-4 {
+    top: 77%; 
+    }
+    
+    .navbar-default {
+        width: 100%;
+    }
+    
+    ul.nav.navbar-nav li {
+    margin: 0;
+    font-size: .9em;
+  padding: 5px 0;
+}
+    
+    ul.nav.navbar-nav li a {
+        padding: 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 900px){
+   
+    
+    #picnic2 {
+        height: 360px;
+    }
+    
+    .project-overlay-3 {
+    top: 65%;
+    }
+    
+}
+
+@media screen and (max-width: 830px){
+   
+    
+    #picnic2 {
+        height: 340px;
+    }
+    
+    ul.nav.navbar-nav li {
+    font-size: .8em;
+}
+    
+     .project-overlay-3 {
+    top: 67%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 770px){
+   
+    
+    #picnic2 {
+        height: 300px;
+    }
+    
+    #section2 {
+        margin-top: 20px;
+    }
+    
+    
+    
+    #videobutton {
+    font-size: 6em;
+}
+    
+    
+    
+    .navbar-collapse .collapse {
+        display: inline; !important
+        width: 100%;
+        z-index: 10000;
+    }
+    
+    #pagenavcont #pagearrow {
+    font-size: 1em;
+    }
+    
+    nav #pagenavcont {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+  body,
+  body .container-fluid { 
+    padding-right: 0px; !important
+    padding-left: 0px; !important
+  }
+   
+  input#HotelButton.bdtslqbx-submit--large.btn,
+   input#PackageButton.bdtslqbx-submit--large.btn {
+      min-width: 200px; !important
+  }
+    
+ .socialbutton {
+    
+    font-size: 1em;
+        height: 50px;
+     margin: 4px 30px;
+}
+ 
+}
+
+@media screen and (max-width: 680px){
+   
+    
+    #picnic2 {
+        height: 280px;
+    }
+    
+    .ahorra {
+        font-size: 2.5em;
+    }
+    
+    #videobutton {
+    font-size:5em;
+}
+    
+    #clickvideo {
+        font-size: .8em;
+    }
+    
+    .ahorra {
+        font-size: 2em;
+        color: black;
+    }
+    
+    .project-overlay {
+    display: none;
+    }
+    
+    .project-overlay-3 {
+    top: 70%;
+    }
+    
+    .project-overlay-4 {
+    display: none;
+    }
+    
+    #section1 .relativesection {
+      margin-bottom: 10px;  
+    }
+
+    .storebtn {
+    max-width: 200px;
+    height: 50px;
+    font-size: .8em;
+    margin: 10px auto;
+        display: inline-block;
+        z-index: 100;
+        
+}
+    a.btn.btn-app-download.storebtn {
+        background-color: black;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    
+    .customvisible {
+        visibility: visible; 
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+   
+    
+    #picnic2 {
+        height: 280px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 640px){
+   
+    
+    #picnic2 {
+        height: 260px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+   
+    
+    #picnic2 {
+        height: 240px;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+   
+    #picnic2 {
+        height: 220px;
+    }
+   
+}
+
+@media screen and (max-width: 500px){
+   
+    #picnic2 {
+        height: 200px;
+    }
+    
+    #navcont > div.navbar-header {
+        width: 100%;
+    }
+    
+    body {
+        width : 100%;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 450px){
+   
+    #picnic2 {
+        height: 180px;
+    }
+    
+   .project-overlay-3 {
+    top: 80%;
+    } 
+    
+    .ahorra {
+        font-size: 1.5em;
+        color: black;
+    }
+    
+    #logo {
+        height: 60px;
+    }
+   
+}
+
+@media screen and (max-width: 415px){
+    
+    #newsletterdiv {
+        top: 0%; !important
+    }
+    
+    #newslettertext2 {
+        padding: 5px;
+    }
+    
+    #newslettertext {
+        margin-top: 5px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 345px){
+    .navbar.navbar-fixed-top {
+        min-height: 60px;
+        margin-top: 0;
+    }
+    
+    
+   #navcont > div.navbar-header > a {
+        padding: 10px;
+       margin: 0 auto;
+    }
+    
+    .ahorra {
+        font-size: 1.2em;
+    }
+    
+    #picnic2 {
+        height: 160px;
+    }
+    
+    #logo {
+       margin-left: 10px; 
+    }
+    
+    #newslettertext2 {
+        font-size: .8em;
+    }
+      
+}
+
+
+#intercom-container div.intercom-launcher-button {
+    background-color: #F1582B; !important
+}
+
+
+
+
+
+
+
