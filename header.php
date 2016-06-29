@@ -151,7 +151,7 @@ $(window).load(function() {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-        <a class="navbar-brand" href="index.html"><img src="img/avelogo2.png" id="logo" alt="Ave Paradiso logo" height=100></a>
+        <a class="navbar-brand" href="ave,atiagina.com"><img src="<?php bloginfo('template_url'); ?>img/avelogo2.png" id="logo" alt="Ave Paradiso logo" height=100></a>
                     
     </div> <!-- END OF NAVBAR-HEADER -->
     
