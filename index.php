@@ -5,12 +5,19 @@
 <div class="container-fluid full-width" >
     <div class="row">
         <div class="col-xs-12 customfull">
-       <div class="flexslider">
-<ul class="slides">
-<li><img src="img/Paradiso.png" alt="slider picture"/></li>
-<li><img src="img/ParadisoBlanco.png" alt="slider picture"/></li>
-</ul>
-           </div>
+<?php 
+		$query = new WP_Query( 'pagename=slider' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                add_flexslider(); 
+            }
+        }
+
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
 </div>
 </div>
     </div>
