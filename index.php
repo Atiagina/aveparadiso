@@ -84,8 +84,22 @@ quis tincidunt. Aenean mollis est at urna pretium suscipit. Fusce pharetra quis 
         <div id="triangle-right"></div>
        
             </div>
-         <div class="myrow"><h1>contact</h1>
-            </div>
+        <?php 
+		$query = new WP_Query( 'pagename=contact' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                echo '<div class="row myrow">';
+				echo '<h1>' . get_the_title() . '</h1>';
+				echo '<div class="col-xs-12">';
+				the_content();
+				echo '</div>';
+                echo '</div>';
+            /* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+            
         </div>
 </div>
    </body> 
