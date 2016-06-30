@@ -21,7 +21,7 @@ wp_reset_postdata();
     </div>
 
 <div class="col-xs-12 col-sm-4" id="frasefooter">
-        <small>&copy;<?=date('Y');?> Made for AveParadiso by <a href="atiagina.com" target="_blank">Atiagina</a> </small>
+        <small>&copy;<?=date('Y');?> Made for AveParadiso by <a href="http://atiagina.com" target="_blank">Atiagina</a> </small>
     </div>
     
 <a href="#logo" class="backtotop">↑</a>

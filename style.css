@@ -547,6 +547,25 @@ font-family: OswaldDemiBold;
     box-shadow: 0 6px 13px 0 rgba(0,0,0,.23); !important
 }
 
+#footersocial {
+    color: white;
+    background: black;
+}
+
+#footersocial  ul.nav.navbar-nav li {
+   padding: 0; !important
+    font-size: 2em;
+    text-align: right;
+    margin: 0;
+    color: white;
+    background: black;
+}
+
+#footersocial  a {
+    text-decoration: none;
+    color: black;
+}
+
 /* SINGLE PAGE */
 
 
