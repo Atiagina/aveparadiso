@@ -32,7 +32,7 @@
         <div class="myrow"><h1>music</h1>
             <div class="col-xs-12">
                 <!-- Begin Dynamic Sidebar -->
-    <?php dynamic_sidebar('social') ?>					
+    <?php dynamic_sidebar('musical') ?>					
     <!-- End Dynamic Sidebar -->
             </div>
         </div>
