@@ -552,7 +552,7 @@ font-family: OswaldDemiBold;
     background: black;
 }
 
-#footersocial  ul.nav.navbar-nav li {
+#footersocial  ul li {
    padding: 0; !important
     font-size: 2em;
     text-align: right;
@@ -561,7 +561,7 @@ font-family: OswaldDemiBold;
     background: black;
 }
 
-#footersocial  a {
+#footersocial li a {
     text-decoration: none;
     color: black;
 }

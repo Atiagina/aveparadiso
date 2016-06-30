@@ -1,7 +1,6 @@
 <footer>
 <div class="container-fluid full-width">
     <div class="row">
-    <div class="col-xs-12">
         <ul id="footersocial">
                     
                     <li><a href="https://soundcloud.com/aveparadiso"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
@@ -13,9 +12,7 @@
                     <li><a href="https://www.youtube.com/channel/UCYiAPYwz-xsBFzzDdh7KYFA" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                     <li><a href="https://twitter.com/aveparadiso" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
                 </ul>
-        
-        
-        </div>
+    
     
     </div>
     
