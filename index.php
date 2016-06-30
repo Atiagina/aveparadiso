@@ -158,6 +158,6 @@ foreach( $gallery as $image ) {
             
         </div>
 </div>
-   </body> 
-</html>
+
+<?php get_footer(); ?>
 
