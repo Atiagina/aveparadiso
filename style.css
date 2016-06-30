@@ -452,7 +452,7 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 
 #music h1 {
-      font-family: OswaldRegular;
+      font-family: OswaldDemiBold;
 }
 
 
@@ -461,14 +461,14 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 #social h1 {
     float: right;
-    font-family: OswaldRegular;
+    font-family: OswaldDemiBold;
 }
 
 
 /* bio */
 
 #bio h1 {
-      font-family: OswaldRegular;
+      font-family: OswaldDemiBold;
 }
 
 
@@ -476,106 +476,16 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
  #tour h1 {
     float: right;
-    font-family: OswaldRegular;
+    font-family: OswaldDemiBold;
 }
 
 /*contact */
 
  #contact h1 {
-font-family: OswaldRegular;
+font-family: OswaldDemiBold;
  }
 
-/*SECTION 8 - TESTIMONIALS */
 
-#section8 h4 {
-    font-family: OswaldDemiBold; !important
-    text-transform: uppercase;
-    line-height: 1.8em;
-}
-
-
-/*SECTION 10 - ZAVEAPP TEAM */
-
-#section10 {
-    background-color: black;
-    color: white;
-}
-
-#section10 h4 {
-    font-family: OswaldDemiBold; !important
-    text-transform: uppercase;
-    line-height: 1.8em;
-}
-
-
-.teamdiv{
-    float: none; !important
-    margin: 10px auto;
-    padding: 20px;
-}
-
-div.owl-controls {
-    text-align: center;
-    font-size: 2em;
-}
-
-.owl-nav div.owl-prev,
-.owl-nav div.owl-next {
-    display: inline; !important
-}
-
-div.owl-prev {
-    margin-right: 10px;
-}
-
-div.owl-next {
-    margin-left: 10px;
-}
-
-
-/*SECTION 12 - PRENSA */
-
-#section12 {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    
-}
-
-/*NEWSLETTER */
-
-#newsletter h2 {
-    font-family: OswaldDemiBold;
-    text-transform:uppercase;
-}
-
-#newsletterdiv {
-    position: absolute;
-    float: right;
-    top: 10%;
-    right: 0;
-    max-width: 300px;
-    padding-right: 0;
-    margin-right:0;
-    text-align: right;
-}
-
-#newslettertext {
-    color: white;
-    background: black;
-    padding: 10px;
-    margin-right: 0;
-    margin-bottom:0;
-}
-
-
-#newslettertext2 {
-    color: black;
-    background: white;
-    opacity: .7;
-    padding: 10px;
-}
-
-/* SECTION 13 - CONTACT */
 
 .wpcf7-form-control.wpcf7-submit,
 .mc4wp-form-fields > p > input {
@@ -599,72 +509,6 @@ div.owl-next {
     border: 1px solid black;
     border-radius: 10px;
     padding-left: 10px;
-}
-
-#section13 .socialbutton {
-    width: 80%;
-    margin: 10px auto;
-    font-size: 1.4em;
-}
-
-#sectionstore {
-    background-color: black;
-    padding-top: 10px;
-}
-
-#sectionstore .storefooter {
-    text-align: center; !important
-    margin: 0 auto;
-}
-
-#sectionstore .storefooter .storebtn {
-    border: 1px white solid;
-}
-
-/* SECTION 14 - FOOTER */
-
-#section14 {
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
-
-#section14 div .centerbutton {
-    text-align: center;
-    cursor:pointer;
-}
-
-#section14 .modal-content.modal-body {
-    background-color: white;
-    color: black;
-}
-
-#footerlogo {
-    margin-top: -10px;
-}
-
-#menufooter ul {
-    margin: 0 auto;
-}
-
-#menufooter li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    margin: 0 auto;
-    font-weight: bold;
-    
-}
-
-#frasefooter {
-    padding: 10px;
-    margin: 0 auto;
-    text-align: right;
-}
-
-#menufooter li a {
-    color: black; !important
-    
 }
 
 
