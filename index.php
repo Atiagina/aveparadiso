@@ -53,16 +53,36 @@
         <div id="triangle-right"></div>
        
             </div>
-         <div class="row myrow"><h1>bio</h1>
-             <div class="col-md-6 col-xs-12">
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et rhoncus enim, ac scelerisque risus. Suspendisse non tortor tortor. Vivamus malesuada metus quis consequat ornare. Fusce quis justo mollis arcu tincidunt laoreet. Morbi nec condimentum libero, ut consectetur nibh. </p>
-<p>Etiam vel justo erat. 
-Suspendisse sit amet tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas lacinia convallis mollis. Quisque mattis finibus accumsan. Nunc sit amet fermentum lorem. Suspendisse a scelerisque felis.
-quis tincidunt. Aenean mollis est at urna pretium suscipit. Fusce pharetra quis elit et suscipit. Maecenas ornare aliquam tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec finibus tellus eget justo pellentesque molestie.</p>
-             </div>
-             <div class="col-md-6 col-xs-12"> <img src="img/playa.png" alt="playa"></div>
-            </div>
-        </div>
+        <?php 
+		$query = new WP_Query( 'pagename=bio' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                echo '<div class="row myrow">';
+				echo '<h1>' . get_the_title() . '</h1>';
+				echo '<div class="col-xs-12 col-sm-6">';
+				the_content();
+				echo '</div>';
+                echo '<div class="col-xs-12 col-sm-6 multilogo">';
+                
+$gallery = get_children( 'post_type=attachment&post_mime_type=image&post_parent=' . $post->ID );
+$attr = array(
+    'class' => "attachment-size wp-post-image",
+);
+foreach( $gallery as $image ) {
+     echo wp_get_attachment_image($image->ID, $attachment_id);
+}
+                echo '</div>';
+                echo '</div>';
+			}
+		}
+
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+    </div>
+    </div>
 </div>
 
 <div class="container-fluid full-width section" id="tour" >

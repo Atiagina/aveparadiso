@@ -351,6 +351,15 @@ ul.nav.navbar-nav li a {
     text-decoration: none;
     color: black;
     background-color: none;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+ul.nav.navbar-nav li a:hover,
+ul.nav.navbar-nav li a:focus {
+    background-color: none;
+    color: grey;
 }
 
 #socialnav ul.nav.navbar-nav li {
