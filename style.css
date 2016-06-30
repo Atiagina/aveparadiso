@@ -212,12 +212,12 @@ select:-moz-focusring {
 /*FONTS AND TEXT STYLES */
 
 @font-face {
-    font-family: OswaldDemiBold;
+    font-family: OswaldRegular;
     src: url(../fonts/Oswald-Regular.ttf);
 }
 
 h1 {
-    font-family: OswaldDemiBold; !important
+    font-family: OswaldRegular; !important
 font-size: 5em;
 color: black;
 }
@@ -451,7 +451,9 @@ nav.navbar-default .navbar-nav > .active > a:focus
 /* Music */
 
 
-
+#music h1 {
+      font-family: OswaldRegular;
+}
 
 
 
@@ -459,36 +461,14 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 #social h1 {
     float: right;
+    font-family: OswaldRegular;
 }
 
 
 /* bio */
 
-#pintext {
-    position: absolute;
-    float: right;
-    top: 10%;
-    right: 0;
-    max-width: 300px;
-    padding-right: 0;
-    margin-right:0;
-    text-align: right;
-}
-
-#onpintext {
-    color: white;
-    background: black;
-    padding: 10px;
-    margin-right: 0;
-    margin-bottom:0;
-}
-
-
-#onpintext2 {
-    color: black;
-    background: white;
-    opacity: .7;
-    padding: 10px;
+#bio h1 {
+      font-family: OswaldRegular;
 }
 
 
@@ -496,100 +476,14 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
  #tour h1 {
     float: right;
+    font-family: OswaldRegular;
 }
 
-/*SECTION 7 - METAS */
+/*contact */
 
-
-
-.nav-pills>li>a {
-    font-family: OswaldDemiBold;
-    font-size: 1.5em;
-    color: black; !important
-    
-}
-
-.nav-pills>li {
-    border: 1px solid black; 
-    border-radius: 20px; !important
-}
-
-
-
-.nav-pills>li:focus,
-.nav-pills>li:hover {
-    border: none;
-}
-
-#section7b .nav-pills > li.active > a, 
-#section7b .nav-pills > li.active > a:hover, 
-#section7b .nav-pills > li.active > a:focus {
-    color: white;
-    background-color: black; !important
-    border: 1px solid transparent; 
-    border-radius: 20px; 
-}
-
-#section7b .nav > li > a:focus, 
-#section7b .nav > li > a:hover {
-    border-radius: 20px; !important
-}
-
-.nav-pills>li.active {
-border: none;
-}
-
-.tab-pane.fade.in.active {
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    border-radius: 20px; !important
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-
-
-
-#ulmetas {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-#ulmetas li {
-    margin-right: 10px;
-}
-
-#compra,
-#viaja,
-#redeem,
-#dona {
-    border: 1px solid black;
-    
-}
-
-.metaslogos {
-    color: white;
-    background-color: black;
-    border-radius: 20px;
-    width: 100%;
-}
-
-.metaslogos ul>li {
-    display: inline;
-    list-style: none;
-    width: 100%;
-    margin: 10px 20px;
-}
-
-.imetas {
-    font-size: 6em;
-}
-
-#bos_searchbox_widget_class-3 h3,
-#bos_searchbox_widget_class-3 h4 {
-    text-transform:none; 
-}
+ #contact h1 {
+font-family: OswaldRegular;
+ }
 
 /*SECTION 8 - TESTIMONIALS */
 
