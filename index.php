@@ -67,7 +67,7 @@
                 echo '<div class="col-xs-12 col-sm-6">';
                 $gallery = get_children( 'post_type=attachment&post_mime_type=image&post_parent=' . $post->ID );
 $attr = array(
-    'class' => "wp-post-image img-responsive",
+    'class' => "img-responsive",
 );
 foreach( $gallery as $image ) {
      echo wp_get_attachment_image($image->ID, $attachment_id, $attr);
