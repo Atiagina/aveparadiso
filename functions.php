@@ -88,8 +88,8 @@ function my_register_sidebars() {
 	);
     register_sidebar(
         array(
-			'id' => 'social',
-			'name' => __( 'Follow Us' ),
+			'id' => 'musical',
+			'name' => __( 'Music' ),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<div class="row"><h3 class="widget-title">',
