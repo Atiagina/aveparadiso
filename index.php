@@ -67,9 +67,6 @@
                 echo '<div class="col-xs-12 col-sm-6 multilogo">';
                 
 $gallery = get_children( 'post_type=attachment&post_mime_type=image&post_parent=' . $post->ID );
-$attr = array(
-    'class' => "attachment-size wp-post-image",
-);
 foreach( $gallery as $image ) {
      echo wp_get_attachment_image($image->ID, $attachment_id);
 }
