@@ -95,8 +95,34 @@ foreach( $gallery as $image ) {
         <div id="triangle-left"></div>
         
             </div>
-        <div class="myrow"><h1>tour</h1>
-            </div>
+        <?php 
+		$query = new WP_Query( 'pagename=tour' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                echo '<div class="row myrow">';
+				echo '<h1>' . get_the_title() . '</h1>';
+				echo '<div class="col-xs-12 col-sm-6 playrowtext">';
+				the_content();
+				echo '</div>';
+                echo '<div class="col-xs-12 col-sm-6">';
+                $gallery = get_children( 'post_type=attachment&post_mime_type=image&post_parent=' . $post->ID );
+$attr = array(
+    'class' => "playrowpic img-responsive",
+);
+foreach( $gallery as $image ) {
+     echo wp_get_attachment_image($image->ID, $attachment_id, $attr);
+}
+                echo '</div>';
+                echo '</div>';
+			}
+		}
+
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+        
         </div>
 </div>
 
