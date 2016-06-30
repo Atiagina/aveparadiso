@@ -59,20 +59,16 @@
 		if ( $query->have_posts() ) {
 			while ( $query->have_posts() ) {
 				$query->the_post();
+                $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
                 echo '<div class="row myrow">';
 				echo '<h1>' . get_the_title() . '</h1>';
 				echo '<div class="col-xs-12 col-sm-6">';
 				the_content();
 				echo '</div>';
                 echo '<div class="col-xs-12 col-sm-6">';
-                
-$gallery = get_children( 'post_type=attachment&post_mime_type=image&post_parent=' . $post->ID );
-$attr = array(
-    'class' => "attachment-size wp-post-image",
-);
-foreach( $gallery as $image ) {
-     echo wp_get_attachment_image($image->ID, $attachment_id);
-}
+                echo '<img src="';
+                echo $url;
+                echo '" class="img-responsive" alt="playa">';
                 echo '</div>';
                 echo '</div>';
 			}
