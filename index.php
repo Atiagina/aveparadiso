@@ -96,6 +96,7 @@ quis tincidunt. Aenean mollis est at urna pretium suscipit. Fusce pharetra quis 
 				the_content();
 				echo '</div>';
                 echo '</div>';
+            }
             /* Restore original Post Data */
 		wp_reset_postdata();
 		?>
