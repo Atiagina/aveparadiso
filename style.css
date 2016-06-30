@@ -350,6 +350,7 @@ ul.nav.navbar-nav li {
 ul.nav.navbar-nav li a {
     text-decoration: none;
     color: black;
+    background-color: none;
 }
 
 #socialnav ul.nav.navbar-nav li {
