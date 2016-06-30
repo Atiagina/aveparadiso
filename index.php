@@ -61,13 +61,13 @@
 				$query->the_post();
                 echo '<div class="row myrow">';
 				echo '<h1>' . get_the_title() . '</h1>';
-				echo '<div class="col-xs-12 col-sm-6">';
+				echo '<div class="col-xs-12 col-sm-6 playrowtext">';
 				the_content();
 				echo '</div>';
                 echo '<div class="col-xs-12 col-sm-6">';
                 $gallery = get_children( 'post_type=attachment&post_mime_type=image&post_parent=' . $post->ID );
 $attr = array(
-    'class' => "img-responsive",
+    'class' => "playrowpic img-responsive",
 );
 foreach( $gallery as $image ) {
      echo wp_get_attachment_image($image->ID, $attachment_id, $attr);
