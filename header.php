@@ -151,7 +151,23 @@ $(window).load(function() {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-        <a class="navbar-brand" href="ave.atiagina.com"><img src="<?php bloginfo('template_url'); ?>/img/avelogo2.png" id="logo" alt="Ave Paradiso logo" height=90></a>
+        <a class="navbar-brand" href="http://www.ave.atiagina.com">
+            <?php 
+		$query = new WP_Query( 'pagename=logopage' );
+        
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+                echo '<img src="';
+                echo $url;
+                echo '" id="logo" alt="Ave Paradiso logo" height=90></a>';
+                
+            }
+        }
+wp_reset_postdata();
+		?>
                     
     </div> <!-- END OF NAVBAR-HEADER -->
     
@@ -169,13 +185,18 @@ $(window).load(function() {
                     <li><a href="https://twitter.com/aveparadiso" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
                 </ul>
         <br>
-                <ul class="nav navbar-nav">
-                    <li><a href="#logo">home</a></li>
-                    <li><a href="#music">music</a></li>
-                    <li><a href="#social">social</a></li>
-                    <li><a href="#bio">bio</a></li>
-                    <li><a href="#tour">tour</a></li>
-                    <li><a href="#contact">contact</a></li>
+                <ul id="navbar" class="nav navbar-nav navbar-right navbar-collapse collapse">
+                     <?php
+                                    wp_nav_menu( array(
+                                        'menu'              => 'Main',                
+                                        'depth'             => 2,
+                                        'container'         => 'div',
+                                        'container_class'   => 'collapse navbar-collapse main-menu-select',
+                                        'menu_class'        => 'nav navbar-nav hashscroll',
+                                        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                                        'walker'            => new wp_bootstrap_navwalker())
+                                    );
+                                ?>
                 </ul>
   
     </div> <!-- END OF NAVBAR-COLLAPSE -->
