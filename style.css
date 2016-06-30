@@ -511,6 +511,16 @@ font-family: OswaldDemiBold;
     padding-left: 10px;
 }
 
+#frasefooter {
+   text-align: right;
+    float: right;
+}
+
+#frasefooter a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .backtotop:hover {
 	color: #fff !important;
