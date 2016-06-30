@@ -44,11 +44,9 @@ function add_flexslider() {
     foreach ( $attachments as $attachment_id => $attachment ) { 
 	
 		$theImage = wp_get_attachment_image($attachment_id, 'flexslider');
-		$theBlockquote = get_post_field('post_excerpt', $attachment->ID);
 	
         echo '<li>';
 		echo $theImage;
-		echo '<blockquote>'.$theBlockquote. '&nbsp;</blockquote>';
         echo '</li>';
         
     } 

@@ -159,23 +159,23 @@ $(window).load(function() {
     <div id="navbar" class="navbar-right navbar-collapse collapse">
                 <ul id="socialnav" class="nav navbar-nav">
                     
-                    <li><a href="#"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
+                    <li><a href="https://soundcloud.com/aveparadiso"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
                     
-                    <li><a href="#" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                    <li><a href="instagram.com/aveparadiso" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
+                    <li><a href="https://www.facebook.com/AveParadiso/" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+                    <li><a href="https://itunes.apple.com/us/album/subtropical-ep/id1119379254" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+                    <li><a href="https://open.spotify.com/album/7hJ6s4p2Wh4E18JsaLxzO3" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/aveparadiso/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCYiAPYwz-xsBFzzDdh7KYFA" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/aveparadiso" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
                 </ul>
         <br>
                 <ul class="nav navbar-nav">
-                    <li>home</li>
-                    <li>music</li>
-                    <li>social</li>
-                    <li>bio</li>
-                    <li>tour</li>
-                    <li>contact</li>
+                    <li><a href="#logo">home</a></li>
+                    <li><a href="#music">music</a></li>
+                    <li><a href="#social">social</a></li>
+                    <li><a href="#bio">bio</a></li>
+                    <li><a href="#tour">tour</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
   
     </div> <!-- END OF NAVBAR-COLLAPSE -->
