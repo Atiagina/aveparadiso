@@ -325,7 +325,7 @@ ul.nav.navbar-nav {
 
 ul.nav.navbar-nav li {
     padding: 5px 10px;
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-align: center;
 }
 
@@ -334,7 +334,7 @@ ul.nav.navbar-nav li a {
     color: black;
     background-color: none;
     padding: 5px 10px;
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-align: center;
 }
 
@@ -425,7 +425,7 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 #music h1 {
       font-family: Economica;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 
@@ -435,7 +435,7 @@ nav.navbar-default .navbar-nav > .active > a:focus
 #social h1 {
     float: right;
     font-family: Economica;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 
@@ -443,7 +443,7 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 #bio h1 {
       font-family: Economica;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 
@@ -452,14 +452,14 @@ nav.navbar-default .navbar-nav > .active > a:focus
  #tour h1 {
     float: right;
     font-family: Economica;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 /*contact */
 
  #contact h1 {
 font-family: Economica;
-    font-size: 6em;
+    font-size: 5em;
  }
 
 
