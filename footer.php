@@ -1,6 +1,7 @@
-<footer>
+
 <div class="container-fluid full-width">
     <div class="row myrow socialrow">
+        <div class="col-xs-12 col-sm-8">
         <ul id="footersocial">
                     
                     <li><a href="https://soundcloud.com/aveparadiso"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
@@ -15,8 +16,11 @@
     
     
     </div>
-    
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-4" id="frasefooter">
+        <small>&copy;<?=date('Y');?> Made for AveParadiso by <a href="http://atiagina.com" target="_blank">Atiagina</a> </small>
+    </div>
+</div>
+    <div class="row myrow">
     <a class="navbar-brand" href="http://www.ave.atiagina.com">
             <?php 
 		$query = new WP_Query( 'pagename=logopage' );
@@ -37,15 +41,12 @@ wp_reset_postdata();
     
     </div>
 
-<div class="col-xs-12 col-sm-4" id="frasefooter">
-        <small>&copy;<?=date('Y');?> Made for AveParadiso by <a href="http://atiagina.com" target="_blank">Atiagina</a> </small>
-    </div>
+
         
     </div>
 
     
 <a href="#logo" class="backtotop">↑</a>
-	</footer> 
 
 	
 
