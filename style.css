@@ -118,13 +118,7 @@ div.container-fluid {
 }
 
 
-#section1 > .container-fluid {
-    padding-top: 80px;
-}
 
-#footer > .container-fluid {
-    padding-top: 10px; !important
-}
 
 .row {
   padding-right: 0px;
@@ -151,24 +145,6 @@ select:-moz-focusring {
 }
 
 
-.multilogo img {
-    margin: 20px; !important
-    /* display: inline-block; !important */
-    float: left; !important
-    
-}
-
-
-.custombutton {
-    color: black;
-    margin: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-    font-family: OswaldDemiBold;
-}
 
 .custombutton a,
 .custombutton a:hover,
@@ -224,13 +200,13 @@ color: black;
 
 .container-fluid.full-width>h2,
 #onpintext {
-    font-family: OswaldDemiBold; !important
+    font-family: Economica; !important
     font-size: 2em; 
     margin: 25px 0; 
 }
 
 h2 {
-    font-family: OswaldDemiBold; !important
+    font-family: Economica; !important
     font-size: 2em; !important
     margin: 25px; !important
 }
@@ -349,7 +325,7 @@ ul.nav.navbar-nav {
 
 ul.nav.navbar-nav li {
     padding: 5px 10px;
-    font-size: 1.2em;
+    font-size: 1.6em;
     text-align: center;
 }
 
@@ -358,7 +334,7 @@ ul.nav.navbar-nav li a {
     color: black;
     background-color: none;
     padding: 5px 10px;
-    font-size: 1.2em;
+    font-size: 1.6em;
     text-align: center;
 }
 
@@ -449,6 +425,7 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 #music h1 {
       font-family: Economica;
+    font-size: 6em;
 }
 
 
@@ -457,14 +434,16 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 #social h1 {
     float: right;
-    font-family: OswaldDemiBold;
+    font-family: Economica;
+    font-size: 6em;
 }
 
 
 /* bio */
 
 #bio h1 {
-      font-family: OswaldDemiBold;
+      font-family: Economica;
+    font-size: 6em;
 }
 
 
@@ -472,13 +451,15 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
  #tour h1 {
     float: right;
-    font-family: OswaldDemiBold;
+    font-family: Economica;
+    font-size: 6em;
 }
 
 /*contact */
 
  #contact h1 {
-font-family: OswaldDemiBold;
+font-family: Economica;
+    font-size: 6em;
  }
 
 
