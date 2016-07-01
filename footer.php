@@ -1,6 +1,6 @@
 <footer>
 <div class="container-fluid full-width">
-    <div class="row">
+    <div class="row myrow socialrow">
         <ul id="footersocial">
                     
                     <li><a href="https://soundcloud.com/aveparadiso"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
