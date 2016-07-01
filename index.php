@@ -86,7 +86,7 @@
 		?>
     </div>
     </div>
-</div>
+
 
 <div class="container-fluid full-width section" id="tour" >
     <div class="row playrow">
@@ -121,7 +121,7 @@
 		/* Restore original Post Data */
 		wp_reset_postdata();
 		?>
-        </div>
+        
         </div>
 </div>
 
