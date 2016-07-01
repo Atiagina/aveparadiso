@@ -28,8 +28,8 @@
     <!-- FONT STYLES -->
     <style>
     @font-face {
-    font-family: Comfortaa;
-    src: url(<?php bloginfo('template_url'); ?>/fonts/Comfortaa_Bold.ttf);
+    font-family: Economica;
+    src: url(<?php bloginfo('template_url'); ?>/fonts/Economica-Bold-OTF.otf);
 }
 
 @font-face {

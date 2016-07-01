@@ -211,13 +211,9 @@ select:-moz-focusring {
 
 /*FONTS AND TEXT STYLES */
 
-@font-face {
-    font-family: OswaldRegular;
-    src: url(../fonts/Oswald-Regular.ttf);
-}
 
 h1 {
-    font-family: OswaldRegular; !important
+    font-family: Economica; !important
 font-size: 5em;
 color: black;
 }
@@ -260,7 +256,7 @@ h4 {
     min-height: 80px;
     background-color: white;
     /* background-color: #f8f8f8; */
-    font-family: OswaldDemiBold;
+    font-family: Economica;
 }
 
 
@@ -452,7 +448,7 @@ nav.navbar-default .navbar-nav > .active > a:focus
 
 
 #music h1 {
-      font-family: OswaldDemiBold;
+      font-family: Economica;
 }
 
 
