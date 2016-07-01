@@ -571,54 +571,9 @@ div .socialrow {
     background-color: black;
 }
 
-/* SINGLE PAGE */
-
-
-#pagearrow {
-    padding-top: 15px;
-    float: right;
-    font-size: 1.5em;
+#frasefooter small {
+    color: white;
 }
-
-#pagearrow a{
-    text-decoration: none;
-    color: #777;
-}
-
-#pagearrow a:hover,
-#pagearrow a:focus,
-#pagearrow a:active {
-    text-decoration: none;
-    color: #777;
-}
-
-#pagenavcont {
-    padding-left: 0;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-.pagecontent {
-    padding: 20px;
-    margin-top: 50px;
-}
-
-.pagecontent h2 {
-    font-family: OswaldDemiBold;
-}
-
-.pagecontent>div>div>.socialbutton {
-    background-color: #777;
-}
-
-
-.pagecontent img {
-    margin: 15px auto;
-    max-width: 500px;
-    width: 100%;
-    padding: 0 auto;
-}
-
 
 
 /* MEDIA QUERIES */
