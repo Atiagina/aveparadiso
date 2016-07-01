@@ -517,7 +517,6 @@ font-family: OswaldDemiBold;
 }
 
 #frasefooter a {
-    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -571,7 +570,8 @@ div .socialrow {
     background-color: black;
 }
 
-#frasefooter small {
+#frasefooter small,
+#frasefooter small a {
     color: white;
 }
 

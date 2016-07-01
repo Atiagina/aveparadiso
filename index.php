@@ -47,9 +47,7 @@
             </div>
         <div class="myrow"><h1>social</h1>
             <div class="col-xs-12">
-                <!-- Begin Dynamic Sidebar -->
-    <?php dynamic_sidebar('primary') ?>					
-    <!-- End Dynamic Sidebar -->
+               
             </div>
             </div>
         </div>
