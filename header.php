@@ -71,10 +71,6 @@
   };
 }(jQuery, window));
         
-        $(document).ready(function(){  $("#triangle-right").inViewport(function(px){
-    if(px) $(this).addClass("animated slideInLeft") ;
-});
-});
 
         $(document).ready(function(){  
 
