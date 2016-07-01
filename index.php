@@ -37,6 +37,7 @@
             </div>
         </div>
 </div>
+</div>
 
 <div class="container-fluid full-width section" id="social" >
     <div class="row playrow">
