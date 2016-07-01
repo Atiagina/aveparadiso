@@ -313,7 +313,9 @@ a.btn.btn-app-download.storebtn {
     font-size: 1.1em;
 }
 
-
+div.clear {
+    clear: both;
+}
 
 
 ul.nav.navbar-nav {

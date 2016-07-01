@@ -104,7 +104,7 @@
                 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
                 echo '<div class="row myrow">';
 				echo '<h1>' . get_the_title() . '</h1>';
-				
+				echo '<div class="clear">';
                 echo '<div class="col-xs-12 col-sm-6">';
                 echo '<img src="';
                 echo $url;
@@ -113,6 +113,7 @@
                 echo '<div class="col-xs-12 col-sm-6 playrowtext">';
 				the_content();
 				echo '</div>';
+                echo '</div>';
                 echo '</div>';
                 
 			}
