@@ -309,13 +309,12 @@ a.btn.btn-app-download.storebtn {
 }
 
 .playrowtext {
+    margin: 0 10px;
     padding: 20px;
+    font-size: 1.1em;
 }
 
-.section h1 {
-    margin: 10px 0;
-    font-size: 2em;
-}
+
 
 
 ul.nav.navbar-nav {
@@ -468,7 +467,7 @@ font-family: Economica;
 .mc4wp-form-fields > p > input {
     padding: 5px 10px;
     color: black;
-    font-family: OswaldDemiBold;
+    font-family: Economica;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -541,6 +540,7 @@ font-family: Economica;
     color: white;
     font-size: 3em;
     padding: 10px;
+    margin: 0 5px;
 }
 
 div .socialrow {
